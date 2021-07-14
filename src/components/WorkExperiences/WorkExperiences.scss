@@ -1,4 +1,50 @@
 .work-experiences {
     grid-row: 2 / 4;
     grid-column: 1 / 2;
+    .title {
+        font-weight: 700;
+        padding: 5px;
+    }
+    .experience-card-container {
+        margin-bottom: 10px;
+        .job-title {
+            display: flex;
+            align-items: center;
+            .bullet {
+                width: 10px;
+                height: 10px;
+                background-color: #0000ff;
+                display: inline-block;
+                border-radius: 50%;
+                margin: 5px;
+            }
+            .position {
+                font-size: 21px;
+                font-weight: 700;
+                color: #0000ff;
+            }
+            .company {
+                font-size: 14px;
+                font-weight: 700;
+                font-style: italic;
+                color: #778899;
+                padding-top: 4px;
+                padding-left: 20px;
+            }
+        }
+        .subtitle {
+            font-size: 16px;
+            font-weight: 700;
+            font-style: italic;
+            margin-left: 20px;
+        }
+        .description {
+            font-size: 14px;
+            margin-left: 20px;
+            strong {
+                font-style: italic;
+                color: #191978;
+            }
+        }
+    }
 }

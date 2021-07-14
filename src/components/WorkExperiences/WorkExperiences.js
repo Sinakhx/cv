@@ -2,9 +2,17 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import "./WorkExperiences.scss";
+import { ExperienceCard } from "./ExperienceCard";
 
 export const WorkExperiences = (props) => {
-  return <section className="work-experiences">work experiences</section>;
+  return (
+    <section className="work-experiences">
+      <div className="title">Work Experiences</div>
+      <ExperienceCard />
+      <ExperienceCard />
+      <ExperienceCard />
+    </section>
+  );
 };
 
 WorkExperiences.propTypes = {
