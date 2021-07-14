@@ -1,3 +1,16 @@
 .languages {
     grid-column: 2 / 3;
+    .subtitle {
+        padding-left: 5px;
+        padding-left: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: italic;
+        color: #191978;
+    }
+    .lang-desc {
+        font-size: 13px;
+        font-style: italic;
+        padding-left: 15px;
+    }
 }
