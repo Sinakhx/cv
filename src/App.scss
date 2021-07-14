@@ -1,7 +1,7 @@
 .cv-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 220px 220px 1fr 145px 100px;
+  grid-template-rows: 220px auto 1fr 145px 100px;
   grid-auto-flow: dense;
   margin: 20px auto;
   width: 820px;

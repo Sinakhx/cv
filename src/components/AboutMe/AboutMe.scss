@@ -1,3 +1,24 @@
 .about-me {
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 30px 1fr;
+    .title {
+        grid-row: 1 / 2;
+        grid-column: 1 / 4;
+        font-weight: 700;
+    }
+    .born {
+        grid-row: 1 / 2;
+        grid-column: 4 / 5;
+        font-style: italic;
+        font-size: 13px;
+        color: #2f4f4f;
+        align-self: center;
+    }
+    .content {
+        grid-column: 1 / 5;
+        font-size: 12px;
+        padding: 5px;
+    }
 }
