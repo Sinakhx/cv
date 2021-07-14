@@ -10,7 +10,7 @@ export const PersonalInfo = (props) => {
     <img className="cv-photo" src="/cv-photo.jpg" alt="profile pic" />
     <div className="name --bold">SINA</div>
     <div className="last-name --bold">KHODABANDEHLOO</div>
-    <div className="title --bold">FRONTEND DEVELOPER</div>
+    <div className="top-title --bold">FRONTEND DEVELOPER</div>
     <div className="phone --detail"><FaPhone /> +98 912 397 38 05</div>
     <div className="email --detail"><HiMail size={20} />&nbsp;<span>khodabandehloo.sina@gmail.com</span></div>
     <div className="social">

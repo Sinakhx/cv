@@ -1,10 +1,10 @@
 .cv-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 220px 270px auto auto auto;
+  grid-template-rows: 220px 285px auto auto auto;
   grid-auto-flow: dense;
   margin: 20px auto;
-  width: 820px;
+  width: 870px;
   height: auto;
   padding: 5px;
   background: #1185c1;
@@ -14,5 +14,9 @@
     padding: 5px;
     border-radius: 6px;
     background-color: #fff;
+  }
+  .section-title {
+    font-weight: 700;
+    padding: 5px;
   }
 }

@@ -4,7 +4,12 @@ import PropTypes from "prop-types";
 import "./TechSkills.scss";
 
 export const TechSkills = (props) => {
-  return <section className="tech-skills">tech skills</section>;
+  return (
+    <section className="tech-skills">
+      <div className="section-title">Tech Skills & Qualifications</div>
+
+    </section>
+  );
 };
 
 TechSkills.propTypes = {
