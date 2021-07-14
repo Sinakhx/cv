@@ -4,10 +4,15 @@
   grid-template-rows: 220px 220px 1fr 145px 100px;
   grid-auto-flow: dense;
   margin: 20px auto;
-  width: 70%;
+  width: 820px;
   height: 1200px;
-  background-color: #e7e7a6;
+  padding: 5px;
+  background: rgb(17,133,193);
+  background: linear-gradient(0deg, rgb(246, 245, 245) 0%, rgba(96, 111, 204, 0.88) 0%, rgb(239, 239, 239) 100%);
   section {
+    margin: 5px;
     padding: 5px;
+    border-radius: 6px;
+    background-color: #fff;
   }
 }

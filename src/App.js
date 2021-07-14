@@ -3,7 +3,7 @@ import * as Section from './components';
 
 function CV() {
   return (
-    <main className="cv-container">
+    <article className="cv-container">
       <Section.PersonalInfo />
       <Section.AboutMe />
       <Section.WorkExperiences />
@@ -11,7 +11,7 @@ function CV() {
       <Section.OtherSkills />
       <Section.Languages />
       <Section.Hobbies />
-    </main>
+    </article>
   );
 }
 
