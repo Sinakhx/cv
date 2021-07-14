@@ -1,3 +1,23 @@
 .tech-skills {
     grid-column: 2 / 3;
+    .subtitle {
+        padding-left: 5px;
+        padding-left: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: italic;
+        color: #191978;
+    }
+    .langs, .techs {
+        font-size: 15px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .langs {
+        display: flex;
+        justify-content: space-around;
+    }
+    .techs {
+        padding-left: 15px;
+    }
 }
