@@ -1,16 +1,17 @@
 import './App.scss';
+import * as Section from './components';
 
 function CV() {
   return (
-    <div className="cv-container">
-      <div className="personal-info"></div>
-      <div className="about-me"></div>
-      <div className="work-experiences"></div>
-      <div className="tech-skills"></div>
-      <div className="other-skills"></div>
-      <div className="languages"></div>
-      <div className="hobbies"></div>
-    </div>
+    <main className="cv-container">
+      <Section.PersonalInfo />
+      <Section.AboutMe />
+      <Section.WorkExperiences />
+      <Section.TechSkills />
+      <Section.OtherSkills />
+      <Section.Languages />
+      <Section.Hobbies />
+    </main>
   );
 }
 
