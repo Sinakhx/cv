@@ -19,6 +19,7 @@ export const PersonalInfo = (props) => {
       <div className="twitter"><FaTwitter />&nbsp;<span>twitter/sinakhx</span></div>
       <div className="linkedin"><FaLinkedinIn />&nbsp;<span>linkedIn/sina-khodabandehloo</span></div>
     </div>
+    <img className="qrcode" src="/qrcode.png" alt="QR Code" />
   </section>;
 };
 
