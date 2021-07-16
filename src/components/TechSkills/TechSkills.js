@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "./TechSkills.scss";
 
 export const TechSkills = (props) => {
+  const concepts = "ES6,ES7,ESNEXT,OOP,Regex,Restful-API,Cross-browser Compatibility,Agile (Scrum),GitFlow,service-workers,Clean-Coding";
   return (
     <section className="tech-skills">
       <div className="section-title">Tech Skills & Qualifications</div>
@@ -25,7 +26,7 @@ export const TechSkills = (props) => {
         <div>Documentation: JsDoc, MarkDown</div>
       </div>
       <div className="subtitle">Concepts</div>
-      <div className="techs">ES6/ES7/ESNEXT,    OOP,    Regex,    Restful-API,    Cross-browser Compatibility,    Agile (Scrum),    GitFlow,   service-workers,  Clean-Coding</div>
+      <div className="techs concepts">{concepts.split(",").map(item => <div key={item}>{item}</div>)}</div>
     </section>
   );
 };

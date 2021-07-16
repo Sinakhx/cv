@@ -1,23 +1,43 @@
 .tech-skills {
-    grid-column: 2 / 3;
-    .subtitle {
-        padding-left: 5px;
-        padding-left: 5px;
-        font-size: 16px;
-        font-weight: 700;
-        font-style: italic;
-        color: #191978;
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
+  .subtitle {
+    padding-left: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    color: #191978;
+    &:nth-child(n + 3) {
+      margin-top: 25px;
     }
-    .langs, .techs {
-        font-size: 15px;
-        font-weight: 600;
-        font-style: italic;
+  }
+  .langs,
+  .techs {
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .langs {
+    display: flex;
+    justify-content: space-around;
+  }
+  .techs {
+    padding-left: 15px;
+    & > div {
+        padding: 2.5px 0;
     }
-    .langs {
-        display: flex;
-        justify-content: space-around;
+  }
+  .concepts {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    & > div {
+        padding: 5px;
+        margin: 5px;
+        font-size: 14px;
+        background-color: #f3e3e3;
+        border-radius: 10px;
     }
-    .techs {
-        padding-left: 15px;
-    }
+  }
 }
