@@ -1,0 +1,141 @@
+{
+  "personalInfo": {
+    "photoPath": "/cv-photo.jpg",
+    "qrcodeImg": {
+      "path": "/qrcode.png",
+      "url": "https://github.com/Sinakhx"
+    },
+    "name": "SINA",
+    "lastName": "KHODABANDEHLOO",
+    "career": "FRONTEND DEVELOPER",
+    "phoneNumber": "+98 912 397 38 05",
+    "email": "khodabandehloo.sina@gmail.com",
+    "social": {
+      "github": {
+        "handle": "sinakhx",
+        "url": "https://github.com/Sinakhx"
+      },
+      "twitter": {
+        "handle": "sinakhx",
+        "url": "https://twitter.com/SinaKhx"
+      },
+      "linkedin": {
+        "handle": "sina-khodabandehloo",
+        "url": "https://www.linkedin.com/in/sina-khodabandehloo/"
+      },
+      "stackoverflow": {
+        "handle": "8885324/sina",
+        "url": "https://stackoverflow.com/users/8885324/sina"
+      }
+    }
+  },
+  "aboutMe": {
+    "birthYear": 1991,
+    "content": "I got interested in programming since 14 when I found out how fantastic it can be to create & automate my computer works from nothing but codes. I'm now devoted to programming full-time & I'm amazed by the awesome software engineering concepts that pop & go every & each day to make better applications that can challenge my creativity towards my enthusiast to make the world a better place. I'm eager to learn & grow both as a person & as an effective team-player by writing quality code that scale to challenging enterprise applications."
+  },
+  "workExperiences": [
+    {
+      "title": "Front-End Developer & JS Consultant",
+      "company": "Bedaan Inc",
+      "timeline": "2020 Dec - Present (part-time)",
+      "description": "I'm currently in charge of developing an advanced trading platform & portfolio optimization dashboard while offering best utils & packages & mentoring junior developers.",
+      "challenges": "building a highly re-usable, customizable & scalable stockTables component for tens of different pages using the BLOC pattern & MVVM.",
+      "techstack": "React, MobX, handlebars, web-components, react-router, axios, i18next, Scss, apexcharts, eslint, jest, enzyme, rollup, webpack, markdown, react-beautiful-dnd, dayjs, typedjs",
+      "typechecking": "PropTypes",
+      "versioncontrol": "Git",
+      "collaboration": "Taskulu"
+    },
+    {
+      "title": "Front-End Developer",
+      "company": "Noorafarin",
+      "timeline": "2020 Jun - Present  (contract)",
+      "description": "I have developed custom dashboards full of financial charts & customized notification data-tables for a fintech project.",
+      "challenges": "customizing mui-datatables for table-row color notifications & desktop-notifications by reading its core typescript interfaces.",
+      "techstack": "React, redux, redux-saga, reselect, react-router, axios, Material-UI, mui-datatables, styled-components, eslint, recharts, highcharts, plotly",
+      "typechecking": "PropTypes",
+      "versioncontrol": "Git",
+      "collaboration": "Trello"
+    },
+    {
+      "title": "Front-End Developer",
+      "company": "Chargoon",
+      "timeline": "2019 Dec - 2020 Jun  (full-time)",
+      "description": "I was in charge of developing the front-end of Enterprise web applications, adding new features with the reusability mindset, based on the infrastructure components with little/no documentation, doing R&D & refactoring MVC views to React via Rest-API which required source-code manipulation of open-source libraries.",
+      "challenges": "adding persian-calendar support to react-big-calendar open-source library",
+      "techstack": "React, TypeScript, MobX, Less, Momentjs, Mapbox, react-big-calendar",
+      "typechecking": "TypeScript",
+      "versioncontrol": "TFVC",
+      "collaboration": "TFS"
+    },
+    {
+      "title": "Front-End Development Intern",
+      "company": "MapsaHR",
+      "timeline": "2019 Aug - 2019 Dec (full-time)",
+      "description": "I developed various 2D games & simple web applications using plain web technologies & I got a hand of Reactjs as a team-player in intense deadlines.",
+      "challenges": "algorithmic problem solving for designing games",
+      "techstack": "React, Redux, Axios, Sass, Bootstrap4, Ant-Design",
+      "typechecking": "-",
+      "versioncontrol": "Git",
+      "collaboration": "Slack"
+    },
+    {
+      "title": "Designing websites with wordpress",
+      "company": "self-employed",
+      "timeline": "2019 May - 2019 Aug",
+      "description": "I have created & customized two websites using the Wordpress CMS which made me familiar with using Cpanel & DirectAdmin hosts, irnic & domain settings, Wordpress site structure & a ton of plugins & tools.",
+      "challenges": "customizing wordpress themes & plugins using PHP & Js"
+    }
+  ],
+  "techSkills": {
+    "ProgrammingLanguages": "TypeScript, JavaScript",
+    "Concepts": "ES6, ES7, ESNEXT, OOP, Regex, Restful-API, Cross-browser Compatibility, Agile (Scrum), GitFlow, service-workers, Clean-Coding",
+    "OS": "Linux (Ubuntu), Windows",
+    "VCS": "Git, TFVC",
+    "UI": "HTML5, CSS3, Scss, Ant-Design, Material-UI, styled-components",
+    "SSR": "Nextjs, handlebars",
+    "DataFetching": "Ajax, Fetch, Axios, react-query, graphql, Postman",
+    "StateManagement": "Context, MobX, Redux",
+    "Testing": "Jest, Enzyme",
+    "TypeChecking": "TypeScript, PropTypes",
+    "Linting": "EsLint",
+    "BuildSystems": "webpack, gulp, esbuild",
+    "PackageManagement": "npm, yarn",
+    "Documentation": "JsDoc, MarkDown"
+  },
+  "otherSkills": {
+      "education": {
+          "period": "2010 SEP - 2014 AUG",
+          "degree": "Bachelor's Degree in Civil Engineering"
+      },
+      "softSkills": "Problem Solving, Critical Thinking, Creativity, Teamwork, Active Listening, Self-Consciousness, Perseverance, Approachability",
+      "certifications": [
+          {
+              "title": "Task-Oriented Course in Fundamentals of Python Programming and Algorithmic Thinking,  (with Perfect Score)  Quera",
+              "issueDate": "Issued Jan 2019",
+              "credentialID": "vyDto2ev",
+              "url": "https://quera.ir/certificate/vyDto2ev/"
+          }
+      ],
+      "projects": [
+          {
+              "name": "array-slayer",
+              "shortLink": "bit.ly/array-slayer",
+              "url": "https://github.com/Sinakhx/array-slayer",
+              "description": "array utility library for js which extends the native js array methods for functional programming tackling daily problems built using esbuild & exported as ESM."
+          },
+          {
+              "name": "react-big-calendar-only-farsi",
+              "shortLink": "bit.ly/rbc-farsi",
+              "url": "https://github.com/Sinakhx/react-big-calendar-only-farsi",
+              "description": "manipulated the source-code of the most popular react's events calendar (react-big-calendar) to support persian jalali/khorshidi system & published it & its new dependencies to npm to be used in Chargoon's didgah applications."
+          }
+      ]
+  },
+  "languages": [
+      {
+          "lang": "English",
+          "fluency": "full professional proficiency"
+      }
+  ],
+  "hobbies": ["Chess", "Aikido", "Music"]
+}

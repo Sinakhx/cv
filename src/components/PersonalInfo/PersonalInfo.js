@@ -1,28 +1,30 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { FaPhone, FaStackOverflow, FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
+import { FaPhone, FaStackOverflow, FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 import "./PersonalInfo.scss";
 
-export const PersonalInfo = (props) => {
+export const PersonalInfo = ({ info }) => {
+  const { github, twitter, stackoverflow, linkedin } = info.social;
+
   return <section className="personal-info">
-    <img className="cv-photo" src="/cv-photo.jpg" alt="profile pic" />
-    <div className="name --bold">SINA</div>
-    <div className="last-name --bold">KHODABANDEHLOO</div>
-    <div className="top-title --bold">FRONTEND DEVELOPER</div>
-    <div className="phone --detail"><FaPhone /> +98 912 397 38 05</div>
-    <div className="email --detail"><HiMail size={20} />&nbsp;<span>khodabandehloo.sina@gmail.com</span></div>
+    <img className="cv-photo" src={info.photoPath} alt="profile pic" />
+    <div className="name --bold">{info.name}</div>
+    <div className="last-name --bold">{info.lastName}</div>
+    <div className="top-title --bold">{info.career}</div>
+    <div className="phone --detail"><FaPhone /><a href={`tel:${info.phoneNumber.split(" ").join("")}`}>{info.phoneNumber}</a></div>
+    <div className="email --detail"><HiMail size={20} /> <a href={`mailto:${info.email}`}>{info.email}</a></div>
     <div className="social">
-      <div className="github"><FaGithub />&nbsp;<span>github/sinakhx</span></div>
-      <div className="stackoverflow"><FaStackOverflow />&nbsp;<span>stackOverflow/8885324/sina</span></div>
-      <div className="twitter"><FaTwitter />&nbsp;<span>twitter/sinakhx</span></div>
-      <div className="linkedin"><FaLinkedinIn />&nbsp;<span>linkedIn/sina-khodabandehloo</span></div>
+      <div className="github"><FaGithub /><a href={github.url}>github/{github.handle}</a></div>
+      <div className="stackoverflow"><FaStackOverflow /><a href={stackoverflow.url}>stackOverflow/{stackoverflow.handle}</a></div>
+      <div className="twitter"><FaTwitter /><a href={twitter.url}>twitter/{twitter.handle}</a></div>
+      <div className="linkedin"><FaLinkedinIn /><a href={linkedin.url}>linkedIn/{linkedin.handle}</a></div>
     </div>
-    <img className="qrcode" src="/qrcode.png" alt="QR Code" />
+    <a className="qrcode" href={info.qrcodeImg.url}><img src={info.qrcodeImg.path} alt="QR Code" /></a>
   </section>;
 };
 
 PersonalInfo.propTypes = {
-  props: PropTypes.object,
+  info: PropTypes.object,
 };

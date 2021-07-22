@@ -3,16 +3,20 @@ import PropTypes from "prop-types";
 
 import "./Languages.scss";
 
-export const Languages = (props) => {
+export const Languages = ({ info }) => {
   return (
     <section className="languages">
       <div className="section-title">Languages</div>
-      <div className="subtitle">English</div>
-      <div className="lang-desc">full professional proficiency</div>
+      {info.map((language) => (
+        <React.Fragment key={language.lang}>
+          <div className="subtitle">{language.lang}</div>
+          <div className="lang-desc">{language.fluency}</div>
+        </React.Fragment>
+      ))}
     </section>
   );
 };
 
 Languages.propTypes = {
-  props: PropTypes.object,
+  info: PropTypes.array,
 };

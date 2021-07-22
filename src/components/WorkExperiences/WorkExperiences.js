@@ -2,18 +2,17 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import "./WorkExperiences.scss";
-import data from "./staticData.json";
 import { ExperienceCard } from "./ExperienceCard";
 
-export const WorkExperiences = (props) => {
+export const WorkExperiences = ({ info }) => {
   return (
     <section className="work-experiences">
       <div className="section-title">Work Experiences</div>
-      {data.map(desc => <ExperienceCard key={desc.company} data={desc} />)}
+      {info.map(description => <ExperienceCard key={description.company} data={description} />)}
     </section>
   );
 };
 
 WorkExperiences.propTypes = {
-  props: PropTypes.object,
+  info: PropTypes.arrayOf(PropTypes.object),
 };

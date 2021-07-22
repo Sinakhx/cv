@@ -3,34 +3,33 @@ import PropTypes from "prop-types";
 
 import "./TechSkills.scss";
 
-export const TechSkills = (props) => {
-  const concepts = "ES6,ES7,ESNEXT,OOP,Regex,Restful-API,Cross-browser Compatibility,Agile (Scrum),GitFlow,service-workers,Clean-Coding";
+export const TechSkills = ({ info }) => {
   return (
     <section className="tech-skills">
       <div className="section-title">Tech Skills & Qualifications</div>
       <div className="subtitle">Programming Languages</div>
-      <div className="langs"><span>TypeScript</span><span>JavaScript</span></div>
+      <div className="langs">{info.ProgrammingLanguages.split(", ").map(lang => <span key={lang}>{lang}</span>)}</div>
       <div className="subtitle">Tools</div>
       <div className="techs">
-        <div>OS: Linux (Ubuntu)  &nbsp;  Windows</div>
-        <div>VCS: Git, TFVC</div>
-        <div>UI: HTML5, CSS3, Scss, Ant-Design, Material-UI, styled-components</div>
-        <div>SSR: Nextjs</div>
-        <div>Data Fetching: Ajax, Fetch, Axios, react-query, graphql, Postman</div>
-        <div>State Management: Context, MobX, Redux, Recoil</div>
-        <div>Testing: Jest, Enzyme</div>
-        <div>Type-Checking: TypeScript, PropTypes</div>
-        <div>Linting: EsLint</div>
-        <div>Build Systems: webpack, gulp, esbuild</div>
-        <div>Package Management: npm, yarn</div>
-        <div>Documentation: JsDoc, MarkDown</div>
+        <div>OS: {info.OS}</div>
+        <div>VCS: {info.VCS}</div>
+        <div>UI: {info.UI}</div>
+        <div>SSR: {info.SSR}</div>
+        <div>Data Fetching: {info.DataFetching}</div>
+        <div>State Management: {info.StateManagement}</div>
+        <div>Testing: Jest, {info.Testing}</div>
+        <div>Type-Checking: {info.TypeChecking}</div>
+        <div>Linting: {info.Linting}</div>
+        <div>Build Systems: {info.BuildSystems}</div>
+        <div>Package Management: {info.PackageManagement}</div>
+        <div>Documentation: {info.Documentation}</div>
       </div>
       <div className="subtitle">Concepts</div>
-      <div className="techs concepts">{concepts.split(",").map(item => <div key={item}>{item}</div>)}</div>
+      <div className="techs concepts">{info.Concepts.split(", ").map(item => <div key={item}>{item}</div>)}</div>
     </section>
   );
 };
 
 TechSkills.propTypes = {
-  props: PropTypes.object,
+  info: PropTypes.object,
 };
