@@ -31,15 +31,15 @@
   },
   "aboutMe": {
     "birthYear": 1991,
-    "content": "I got interested in programming since 14 when I found out how fantastic it can be to create & automate my computer works from nothing but codes. I'm now devoted to programming full-time & I'm amazed by the awesome software engineering concepts that pop & go every & each day to make better applications that can challenge my creativity towards my enthusiast to make the world a better place. I'm eager to learn & grow both as a person & as an effective team-player by writing quality code that scale to challenging enterprise applications."
+    "content": "I'm a passionate JS/TS Developer fascinated by the upcoming technologies that help me ship quality software through engineering excellence to make the world a better place for everyone. I'm eager to learn & grow both as a person & as an effective team-player by writing efficient & optimized code which can scale to  enterprise applications. I also focus on re-usability & try to automate stuff while working on similar tasks. I see nothing as impossible & will always find a solution or workaround to handle upcoming challenges, no matter how much difficult they might seem."
   },
   "workExperiences": [
     {
-      "title": "Front-End Developer & JS Consultant",
+      "title": "Front-End Developer",
       "company": "Bedaan Inc",
       "timeline": "2020 Dec - Present (part-time)",
-      "description": "I'm currently in charge of developing an advanced trading platform & portfolio optimization dashboard while offering best utils & packages & mentoring junior developers.",
-      "challenges": "building a highly re-usable, customizable & scalable stockTables component for tens of different pages using the BLOC pattern & MVVM.",
+      "description": "I'm currently in charge of developing an advanced trading platform & portfolio optimization dashboard (without any UI libs) while offering best utils & packages. I also mentor junior developers.",
+      "challenges": "building a highly re-usable, customizable & scalable stockTables component for tens of different pages using the BLOC pattern, MVVM & Bridge for API communication.",
       "techstack": "React, MobX, handlebars, web-components, react-router, axios, i18next, Scss, apexcharts, eslint, jest, enzyme, rollup, webpack, markdown, react-beautiful-dnd, dayjs, typedjs",
       "typechecking": "PropTypes",
       "versioncontrol": "Git",
@@ -50,7 +50,7 @@
       "company": "Noorafarin",
       "timeline": "2020 Jun - Present  (contract)",
       "description": "I have developed custom dashboards full of financial charts & customized notification data-tables for a fintech project.",
-      "challenges": "customizing mui-datatables for table-row color notifications & desktop-notifications by reading its core typescript interfaces.",
+      "challenges": "customizing mui-datatables for table-row color notifications & desktop-notifications by reading its core typescript definitions.",
       "techstack": "React, redux, redux-saga, reselect, react-router, axios, Material-UI, mui-datatables, styled-components, eslint, recharts, highcharts, plotly",
       "typechecking": "PropTypes",
       "versioncontrol": "Git",
@@ -79,7 +79,7 @@
       "collaboration": "Slack"
     },
     {
-      "title": "Designing websites with wordpress",
+      "title": "Wordpress website designer",
       "company": "self-employed",
       "timeline": "2019 May - 2019 Aug",
       "description": "I have created & customized two websites using the Wordpress CMS which made me familiar with using Cpanel & DirectAdmin hosts, irnic & domain settings, Wordpress site structure & a ton of plugins & tools.",
