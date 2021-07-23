@@ -13,7 +13,7 @@ export const ExperienceCard = ({ data }) => {
       </div>
       <div className="subtitle">{data.timeline}</div>
       <div className="description">{data.description}</div>
-      <div className="description"><strong>Challenges</strong>: {data.challenges}</div>
+      <div className="description"><strong>Challenges & Accomplishments</strong>: {data.challenges}</div>
       {!!data.techstack && <div className="description"><strong>Tech Stack</strong>: <span>{data.techstack}</span></div>}
       {!!data.typechecking && !!data.versioncontrol  && !!data.collaboration && <div className="description"><strong>Type-Checking</strong>: {data.typechecking} &nbsp;<strong>Version Control</strong>: {data.versioncontrol} &nbsp;<strong>Team Collaboration</strong>: {data.collaboration}</div>}
     </div>
