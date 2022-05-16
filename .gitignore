@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# personal info
+/**/about-me.json
+/**/personal-info.json

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "unicode-org/icu",
+        "shortLink": "https://github.com/unicode-org/icu",
+        "url": "https://github.com/unicode-org/icu/pull/2077",
+        "description": "fixed Persian calendar leap years algorithm in ICU (International Components for Unicode)"
+    },
+    {
+        "name": "hybrid-boilerplate",
+        "shortLink": "https://github.com/javadbat/hybrid-boilerplate",
+        "url": "https://github.com/javadbat/hybrid-boilerplate",
+        "description": "set up testing infrastructure, added path aliases configurations"
+    },
+    {
+        "name": "design-system",
+        "shortLink": "https://github.com/javadbat/design-system",
+        "url": "https://github.com/javadbat/design-system",
+        "description": "enhanced messaging components, documentation & scripts"
+    },
+    {
+        "name": "number-slayer",
+        "shortLink": "https://github.com/Sinakhx/number-slayer",
+        "url": "https://github.com/Sinakhx/number-slayer",
+        "description": "created a tree-shakable library for common number utilities in typescript"
+    },
+    {
+        "name": "array-slayer",
+        "shortLink": "https://github.com/Sinakhx/array-slayer",
+        "url": "https://github.com/Sinakhx/array-slayer",
+        "description": "js array methods extended (similar to lodash but more specific) [Work in Progress]"
+    },
+    {
+        "name": "date-slayer",
+        "shortLink": "https://github.com/Sinakhx/date-slayer",
+        "url": "https://github.com/Sinakhx/date-slayer",
+        "description": "Intl-based date utils for Gregorian & Jalali calendars [Work in Progress]"
+    },
+    {
+        "name": "ts-lib-factory",
+        "shortLink": "https://github.com/Sinakhx/ts-lib-factory",
+        "url": "https://github.com/Sinakhx/ts-lib-factory",
+        "description": "my personal template boilerplate for creating typescript packages"
+    }
+]

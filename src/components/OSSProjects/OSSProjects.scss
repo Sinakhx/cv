@@ -1,0 +1,37 @@
+.open-source-projects {
+  grid-row: -4 / -1;
+  grid-column: 1 / 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 80px 120px 145px;
+  align-items: center;
+  text-align: center;
+  .projects {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    // margin-top: 60px;
+    text-align: left;
+    [class^="proj-"] {
+      padding-left: 15px;
+    }
+    :not(.section-title) {
+      font-size: 14px;
+    }
+    .proj-name {
+      a {
+        font-weight: 700;
+      }
+      span {
+        padding-left: 15px;
+        font-size: 12px;
+        color: #191978;
+      }
+    }
+    .proj-desc {
+      padding-left: 25px;
+      font-style: italic;
+      font-size: 12px;
+      padding: 0 0 5px 25px;
+    }
+  }
+}

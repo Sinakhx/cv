@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Front-End Developer",
+        "company": "Mofid Securities",
+        "timeline": "Apr 2022 - Present (full-time)",
+        "description": "I've just joined the Marketing-tools team to improve & fix the previous works while setting up the ground for upcoming projects",
+        "challenges": "fixed logarithmic scale chart issues in a legacy codebase, set up the new frontend infrastructure with cutting-edge test utils & local ci setup",
+        "techstack": "React, TypeScript, vite, react-router-dom, axios, Scss, tailwindcss, eslint, vitest, react-testing-library, markdown, react-query, react-hook-form",
+        "typechecking": "TypeScript",
+        "versioncontrol": "Git",
+        "collaboration": "Jira, TFS"
+    },
+    {
+        "title": "Front-End Developer",
+        "company": "Bedaan Inc",
+        "timeline": "Dec 2020 - Mar 2022 (part-time)",
+        "description": "I was in charge of developing an advanced trading platform & portfolio optimization dashboard (without any UI libs) while offering best utils & packages. I also mentored junior developers as well as collaborating with the UI/UX team for a high-quality & intuitive front-end web design.",
+        "challenges": "I've built a highly re-usable, customizable & scalable stockTables component for tens of different pages using the BLOC pattern, MVVM & Bridge for API communication. I've also created an automation script for files creation which made development time saved for more productive tasks.",
+        "techstack": "React, MobX, handlebars, web-components, react-router, axios, i18next, Scss, apexcharts, eslint, jest, enzyme, rollup, webpack, Node.js, Express, markdown, react-beautiful-dnd, dayjs, typedjs",
+        "typechecking": "PropTypes",
+        "versioncontrol": "Git",
+        "collaboration": "Taskulu"
+    },
+    {
+        "title": "Front-End Developer",
+        "company": "Noorafarin",
+        "timeline": "Jun 2020 - Apr 2022  (contract)",
+        "description": "I have developed custom dashboards full of financial charts & customized notification data-tables for a fintech product, devlivering financial solutions to customers.",
+        "challenges": "customizing mui-datatables for table-row color notifications & desktop-notifications by reading its core typescript definitions.",
+        "techstack": "React, redux, redux-saga, reselect, react-router, axios, Material-UI, mui-datatables, styled-components, eslint, recharts, highcharts, plotly",
+        "typechecking": "PropTypes",
+        "versioncontrol": "Git",
+        "collaboration": "Trello"
+    },
+    {
+        "title": "Front-End Developer",
+        "company": "Chargoon",
+        "timeline": "Dec 2019 - Jun 2020  (full-time)",
+        "description": "I was in charge of developing the front-end of Enterprise web applications, adding new features with the reusability mindset, based on the infrastructure components with little/no documentation, doing R&D & refactoring MVC views to React via Rest-API which required source-code manipulation of open-source libraries.",
+        "challenges": "adding persian-calendar support to react-big-calendar open-source library",
+        "techstack": "React, TypeScript, MobX, Less, Momentjs, Mapbox, react-big-calendar",
+        "typechecking": "TypeScript",
+        "versioncontrol": "TFVC",
+        "collaboration": "TFS"
+    },
+    {
+        "title": "Front-End Developer",
+        "company": "MapsaHR",
+        "timeline": "Aug 2019 - Dec 2019 (full-time)",
+        "description": "I developed various 2D games & simple web applications using plain web technologies & I got a hand of Reactjs as a team-player in intense deadlines.",
+        "challenges": "algorithmic problem solving for designing games",
+        "techstack": "React, Redux, Axios, Sass, Bootstrap4, Ant-Design",
+        "typechecking": "-",
+        "versioncontrol": "Git",
+        "collaboration": "Slack"
+    },
+    {
+        "title": "Wordpress website designer",
+        "company": "self-employed",
+        "timeline": "May 2019 - Aug 2019",
+        "description": "I have created & customized two websites using the Wordpress CMS which made me familiar with using Cpanel & DirectAdmin hosts, irnic & domain settings, Wordpress site structure & a ton of plugins & tools.",
+        "challenges": "customizing wordpress themes & plugins using PHP & Js"
+    }
+]

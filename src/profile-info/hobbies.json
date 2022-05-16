@@ -1,0 +1,14 @@
+[
+    {
+        "react-icon": "GiChessPawn",
+        "name": "Chess"
+    },
+    {
+        "react-icon": "GiYinYang",
+        "name": "Aikido"
+    },
+    {
+        "react-icon": "FaHeadphones",
+        "name": "Music"
+    }
+]

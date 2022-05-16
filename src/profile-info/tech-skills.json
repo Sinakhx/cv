@@ -1,0 +1,57 @@
+{
+    "programmingLanguages": [
+        "TypeScript",
+        "JavaScript"
+    ],
+    "concepts": "ES6, ES7, ESNEXT, OOP, Regex, Restful-API, Cross-browser Compatibility, Agile Development (Scrum), GitFlow, service-workers, Clean-Coding",
+    "details": [
+        {
+            "title": "OS",
+            "desc": "Linux (Ubuntu), Windows"
+        },
+        {
+            "title": "VCS",
+            "desc": "Git, TFVC"
+        },
+        {
+            "title": "UI",
+            "desc": "HTML, CSS, SCSS/SASS, Tailwindcss, styled-components"
+        },
+        {
+            "title": "SSR",
+            "desc": "Nextjs, Handlebars"
+        },
+        {
+            "title": "Data Fetching",
+            "desc": "Fetch, Axios, react-query"
+        },
+        {
+            "title": "State Management",
+            "desc": "Context, MobX, Redux"
+        },
+        {
+            "title": "Testing",
+            "desc": "Jest, Vitest, Enzyme, Testing-Library"
+        },
+        {
+            "title": "Type-Checking",
+            "desc": "TypeScript, PropTypes"
+        },
+        {
+            "title": "Linting",
+            "desc": "EsLint"
+        },
+        {
+            "title": "Build Systems",
+            "desc": "webpack, vite, esbuild"
+        },
+        {
+            "title": "Package Management",
+            "desc": "npm, yarn"
+        },
+        {
+            "title": "Documentation",
+            "desc": "JsDoc, MarkDown"
+        }
+    ]
+}
